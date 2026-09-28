@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Ruang Fokus · Support</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; }
+    body { margin: 0; background: #f7faf8; color: #17353a; }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.15; margin: 0 0 8px; }
+    h2 { font-size: 1.2rem; margin: 36px 0 8px; }
+    .brand { color: #145a63; font-weight: 700; letter-spacing: .02em; margin-bottom: 24px; }
+    .meta { color: #526c6e; margin: 0 0 36px; }
+    a { color: #145a63; text-underline-offset: 3px; }
+    footer { border-top: 1px solid #c9dcd5; margin-top: 48px; padding-top: 20px; font-size: .9rem; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #101c1e; color: #e8f2ef; }
+      .brand, a { color: #8dd5c6; }
+      .meta { color: #a7c7c0; }
+      footer { border-color: #315351; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="brand">Ruang Fokus</div>
+    <h1>Support</h1>
+    <p class="meta">Help for the native Android focus timer</p>
+    <p>Ruang Fokus works without an account or internet connection. For help with the app, email <a href="mailto:hello.triyan@gmail.com">hello.triyan@gmail.com</a>.</p>
+
+    <h2>Start a focus session</h2>
+    <p>On Home, tap <strong>Choose a task</strong> to select or add one, or leave it as a free session. Tap <strong>Start focus</strong>. You can change the duration for future sessions in Settings.</p>
+
+    <h2>Pause, resume, or end early</h2>
+    <p>Use the controls on the timer screen. Ending early asks for confirmation and saves the session with an <strong>Ended early</strong> label. You can add an optional note on the result screen. Closing and reopening the app should restore an active session from its saved timer state.</p>
+
+    <h2>Session alerts</h2>
+    <p>Alerts are optional. Turn them on in Settings and allow Android notification permission when prompted. If permission is denied, the timer continues to work. Android power management can delay a background alert, so reopening the app is the reliable way to check the saved session result.</p>
+
+    <h2>Export or delete local data</h2>
+    <p>In Settings, tap <strong>Export data</strong> and choose a destination in Android's file picker. The app saves a UTF-8 CSV of tasks and session history. To remove local app data, tap <strong>Delete all local data</strong> and confirm. Exported files stay at the destination you chose until you delete them there.</p>
+
+    <h2>Privacy</h2>
+    <p>Read the <a href="./">Privacy Policy</a> for details about on-device data, notifications, and export.</p>
+    <footer>Ruang Fokus · One session. One thing done.</footer>
+  </main>
+</body>
+</html>
